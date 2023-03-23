@@ -25,7 +25,7 @@ record_id=$(echo $record_id_tmp | sed 's/\"//g')
 echo "get $sub_domain domain record id : $record_id "
 
 
-更新域名本机公网IP
+#更新域名本机公网IP
 curl -X POST https://dnsapi.cn/Record.Ddns -d "login_token=$ID,$TOKEN&domain_id=$domain_id&record_id=$record_id&record_line=默认&sub_domain=$sub_domain"
 
 
