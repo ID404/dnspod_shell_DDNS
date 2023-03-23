@@ -1,0 +1,2 @@
+# dnspod_shell_DDNS
+基于shell的dnspod动态域名更新
